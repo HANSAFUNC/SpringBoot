@@ -20,7 +20,7 @@ SpringApplication.run(SpringbootdemoApplication.class, args);
 }
 ```
 ## 项目目录
-[](https://upload-images.jianshu.io/upload_images/2556623-ca13fc9970550572.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[a.png](https://upload-images.jianshu.io/upload_images/2556623-ca13fc9970550572.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 **最紧要开心 RESTful APIs**
 
