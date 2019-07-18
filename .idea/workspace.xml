@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba84e86c-8b68-47ff-900d-e1833cd865e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttuan/SpringbootdemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ttuan/SpringbootdemoApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,26 +73,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HELP.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ttuan/SpringbootdemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +222,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ttuan/mapper/userMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/IpUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttuan/3th/swagger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ttuan/SpringbootdemoApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttuan/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/TTResponses.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/result/IRequestIdGenerator.java" />
@@ -244,6 +244,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ttuan/controller/helloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/TokenUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttuan/Define/SystemConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ttuan/SpringbootdemoApplication.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -277,8 +278,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1332" />
-    <option name="y" value="76" />
+    <option name="x" value="1318" />
+    <option name="y" value="97" />
     <option name="width" value="1920" />
     <option name="height" value="1015" />
   </component>
@@ -293,6 +294,32 @@
             <path>
               <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ttuan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -601,15 +628,15 @@
       <workItem from="1562642510110" duration="76445000" />
       <workItem from="1563179678004" duration="42402000" />
       <workItem from="1563414700639" duration="286000" />
-      <workItem from="1563415459885" duration="2181000" />
+      <workItem from="1563415459885" duration="2878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160040000" />
+    <option name="totallyTimeSpent" value="160737000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1332" y="76" width="1920" height="1015" extended-state="0" />
+    <frame x="1318" y="97" width="1920" height="1015" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16719915" />
@@ -869,16 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttuan/SpringbootdemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1105,11 +1122,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttuan/SpringbootdemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
           </first_editor>
           <second_editor />
         </state>
