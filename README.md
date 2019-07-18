@@ -25,8 +25,9 @@ SpringApplication.run(SpringbootdemoApplication.class, args);
 ## MyBatis-Puls
 >**MyBatis-Puls是MyBatis的增强工具,Mybatis是需要写大量的xml来写sql做数据库CRUD,很是麻烦。MyBatis-Puls就很好解决这个问题,它底层封装了一些CURD方法,不用再写xml,大量提高了效率**
 
-  
+## 接口界面 
 
+![b.png](https://upload-images.jianshu.io/upload_images/2556623-37b55ac394901b3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ## 接口文档 Swagger 2
 
 **最紧要开心 RESTful APIs**
