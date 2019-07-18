@@ -1,5 +1,5 @@
 ## 说明
->**这是本人学习SpringBoot过程所写的demo,学习过程以SpringBoot + MyBatis-Plus + Tomcat(SpringBoot已内置)形式,由于本人是长期iOS开发一枚,也没有Spring前置知识,所以也不会过于扯这方面的知识点(只会说点注释).Java方面由于本人有Object-C、Swfit、HTML5、JS等基础,所以在code方面没什么压力.**
+>**这是本人学习SpringBoot过程所写的demo,学习过程以SpringBoot + MyBatis-Plus + Tomcat(SpringBoot已内置) + Swagger 2 形式写CRUD接口,由于本人是长期iOS开发一枚,也没有Spring前置知识,所以也不会过于扯这方面的知识点(只会说点注释).Java方面由于本人有Object-C、Swfit、HTML5、JS等基础,所以在code方面没什么压力.**
 
 ## 程序入口
 >**Application是运行入口,这感觉有点想类似于iOS的Application,运行Application SpringBoor内置的Tomcat也会自动运行,这样就可以测试本地接口了;ps:@SpringBootApplication这个注释作用感觉就是自动加载配置**
@@ -20,12 +20,19 @@ SpringApplication.run(SpringbootdemoApplication.class, args);
 }
 ```
 ## 项目目录
-[a.png](https://upload-images.jianshu.io/upload_images/2556623-ca13fc9970550572.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![a.png](https://upload-images.jianshu.io/upload_images/2556623-ca13fc9970550572.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## MyBatis-Puls
+>**MyBatis-Puls是MyBatis的增强工具,Mybatis是需要写大量的xml来写sql做数据库CRUD,很是麻烦。MyBatis-Puls就很好解决这个问题,它底层封装了一些CURD方法,不用再写xml,大量提高了效率**
+
+  
+
+## 接口文档 Swagger 2
 
 **最紧要开心 RESTful APIs**
 
 
-**简介**：<p>测试</p>
+**简介**：<p>可以直接调用localhost:9090/doc.html进入到接口调试界面,项目也集成了JWT Token生成</p>
 
 
 **HOST**:localhost:9090
