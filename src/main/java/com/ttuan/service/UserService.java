@@ -30,16 +30,30 @@ public class UserService extends ServiceImpl<UserMapper,User> {
         return Responses.ok(user);
 //         return Responses.fail(999,"插入失败");
     }
-    public String deleteUser(long uid) {
+    public Responses deleteUser(long uid) {
+        Responses responese;
         EntityWrapper<User> warpper = new EntityWrapper<User>();
         warpper.eq("uid",uid);
-       return baseMapper.delete(warpper).toString();
-//        baseMapper.deleteUser(uid);
+       int ret = baseMapper.delete(warpper);
+       if (ret == 1) {
+           responese = Responses.ok();
+       }else {
+           responese = Responses.fail();
+       }
+       return responese;
     }
-    public void updateUser(User user,long uid) {
+    public Responses updateUser(User user,String uid) {
+        Responses responese;
         EntityWrapper<User> warpper = new EntityWrapper<User>();
         warpper.eq("uid",uid);
-        baseMapper.update(user,warpper);
+
+       int ret = baseMapper.update(user,warpper);
+       if (ret == 1){
+           responese = Responses.ok();
+       }else {
+           responese = Responses.fail();
+       }
+       return responese;
     }
 
 }

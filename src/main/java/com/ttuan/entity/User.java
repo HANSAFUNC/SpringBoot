@@ -14,6 +14,7 @@ import java.io.Serializable;
 
 @Data
 @TableName("user")
+
 public class User implements Serializable {
     @TableId(type = IdType.ID_WORKER_STR)
     private String uid;

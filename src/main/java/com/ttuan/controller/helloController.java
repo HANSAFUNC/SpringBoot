@@ -76,6 +76,7 @@ public class helloController {
             user.setUserHeadImg("http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg");
             user.setAccount(account);
             user.setPwd("123456");
+            user.setNickName("HANSAFUNC");
             userService.addUser(user);
             response = Responses.ok("注册成功");
         }else  {
@@ -87,21 +88,26 @@ public class helloController {
     }
 
     @RequestMapping(value = "/delete",method = RequestMethod.GET)
-    public void deleteUserByUid(long uid) {
+    public Responses deleteUserByUid(long uid) {
         System.out.println(uid);
-        userService.deleteUser(uid);
+        return userService.deleteUser(uid);
     }
-    @RequestMapping(value = "/update",method = RequestMethod.GET)
-    public void update(@RequestParam(required = false) String userName ,
+    @RequestMapping(value = "/update",method = RequestMethod.POST)
+    public Responses update(HttpServletRequest request,
                        @RequestParam(required = false) String headImg,
-                       @RequestParam(required = true)  Integer uid) {
+                       @RequestParam(required = false) String nickName,
+                       @RequestParam(required = false) String userName,
+                       @RequestParam(required = false) long age
+    ) {
+        String token = request.getHeader("token");
+        String uid = TokenUtil.getUid(token);
+
         User user = new User();
         user.setUserHeadImg(headImg);
-        user.setUserName(userName);
-
+        user.setUserName(nickName);
         System.out.println(user);
 
-        userService.updateUser(user,uid);
+        return userService.updateUser(user,uid);
     }
 
     public static String getRandomString(int length) {

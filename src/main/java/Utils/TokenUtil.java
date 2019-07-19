@@ -98,4 +98,9 @@ public class TokenUtil {
         return parseJWT(token).getExpiration();
     }
 
+    public static String getUid(String token) {
+        Claims claims = parseJWT(token);
+        return claims.get(kCREATEUSERNAME).toString();
+    }
+
 }
